@@ -10,5 +10,12 @@ package paquete6;
  * @author reroes
  */
 public class Ejecutor {
-    
+
+    public static void main(String[] args) {
+        String nombreArchivo = "hospital.txt";
+
+        Hospital hospital = new Hospital("Isidro Ayora", 78, 1200000.5);
+        System.out.printf("%s", hospital);
+    }
+
 }

@@ -13,6 +13,31 @@ public class Hospital {
     String nombre;
     int numeroCamas;
     double presupuesto;
+    
+    public Hospital(String s, int n, double p){
+        nombre = s;
+        numeroCamas = n;
+        presupuesto = p;
+    }
+    
+    public String obtenerNombre(){
+        return nombre;
+    }
+    
+    public int obtenerCamas(){
+        return numeroCamas;
+    }
+    
+    public double obtenerPresupuesto(){
+        return presupuesto;
+    }
+    
+    @Override
+    
+    public String toString(){
+        String cadena = String.format("");
+        return cadena;
+    }
 }
 
 /* 
