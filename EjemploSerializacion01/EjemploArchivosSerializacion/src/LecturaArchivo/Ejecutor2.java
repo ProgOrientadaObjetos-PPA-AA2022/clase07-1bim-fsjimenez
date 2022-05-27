@@ -13,7 +13,7 @@ package LecturaArchivo;
 public class Ejecutor2 {
     public static void main(String[] args) {
         String nombreArchivo = "hospitales.data";
-        String nombre_buscar = "222";
+        String nombre_buscar = "2222";
         Hospital hospital_buscar;
         LecturaArchivo lectura = 
                 new LecturaArchivo(nombreArchivo);
